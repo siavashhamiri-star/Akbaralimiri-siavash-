@@ -1,0 +1,43 @@
+import Head from 'next/head'
+
+export default function Home() {
+  return (
+    <div style={{ fontFamily: 'system-ui, sans-serif', padding: '2rem', maxWidth: '800px', margin: '0 auto', direction: 'rtl', textAlign: 'right', lineHeight: '1.8' }}>
+      <Head>
+        <title>اکبر علی‌میری (سیاوش) | وبسایت شخصی و پایگاه شهر توانا</title>
+        <meta name="description" content="پایگاه اندیشه‌ها، مدل‌های اقتصادی و اکوسیستم آفرینش" />
+      </Head>
+
+      <header style={{ borderBottom: '2px solid #eee', paddingBottom: '1rem', marginBottom: '2rem' }}>
+        <h1 style={{ color: '#111', fontSize: '2rem', marginBottom: '0.5rem' }}>اکبر علی‌میری (سیاوش)</h1>
+        <p style={{ color: '#666', fontSize: '1.1rem', margin: 0 }}>
+          توسعه‌دهنده، متفکر اقتصادی و خالق شهر توانا و اکوسیستم آفرینش
+        </p>
+      </header>
+
+      <main>
+        <section style={{ marginBottom: '2.5rem' }}>
+          <h2 style={{ color: '#222', fontSize: '1.4rem' }}>درباره من و فلسفه کاری</h2>
+          <p>
+            به وبسایت شخصی من خوش آمدید. این پایگاه مستقلی است برای ثبت و آرشیو اندیشه‌ها، 
+            مدل‌های اقتصادی (از جمله SSM) و پروژه‌های توسعه‌یافته در راستای ساخت اکوسیستم‌های آزاد و خودکفا.
+          </p>
+        </section>
+
+        <section>
+          <h2 style={{ color: '#222', fontSize: '1.4rem' }}>یادداشت‌ها و مقالات اخیر</h2>
+          <div style={{ background: '#f9f9f9', padding: '1rem 1.5rem', borderRadius: '8px', borderRight: '4px solid #0070f3' }}>
+            <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1.2rem' }}>مقدمه‌ای بر اکوسیستم آفرینش و شهر توانا</h3>
+            <p style={{ margin: 0, color: '#555', fontSize: '0.95rem' }}>
+              به‌زودی مقالات و تئوری‌های کامل در این بخش منتشر خواهند شد...
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer style={{ marginTop: '3rem', paddingTop: '1rem', borderTop: '1px solid #eee', color: '#888', fontSize: '0.85rem' }}>
+        © تمام حقوق برای اکبر علی‌میری (سیاوش) محفوظ است.
+      </footer>
+    </div>
+  )
+}
